@@ -7,4 +7,8 @@ public class App {
         port(8080);
         get("/", (req, res) -> "Hello from Jenkins Java Demo!");
     }
+
+    public static int suma(int a, int b) {
+        return a + b;
+    }
 }
